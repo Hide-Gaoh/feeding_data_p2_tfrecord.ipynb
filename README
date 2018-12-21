@@ -1,0 +1,10 @@
+I'm following "shang-vikas/feeding_data_totf_part2.ipynb".
+First of all, I appreciate for giving great instructions.
+At beginning, thanks to shang-vikas for giving great instructions.
+Now, I think that there are some differences between "tfrecord feeding" and "on_disk feeding".
+"tfrecord feeding" Loss for 200 step: 61.708244. Loss for 18950 step: 0.79037374.
+"on_disk feeding"  Loss for 202 step: 74.93483.  Loss for 18952 step: 13.089273.
+And, if my code are correct, the difference of evaluation results with above trains is large. 
+"tfrecord feeding" Test set accuracy: 0.914   
+"on_disk feeding"  Test set accuracy: 0.616
+I cannot understand why large differences occur. Here’s my notebook
